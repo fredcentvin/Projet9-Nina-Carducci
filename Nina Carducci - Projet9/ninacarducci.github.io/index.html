@@ -32,18 +32,20 @@
 	<script src="./assets/scripts.js"defer></script>	
 </head>
 <body>
-<div class="top-header">
-	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
-		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Lien Instagram Nina Carducci"></a></li>
-		</ul>
-	</div>
-</div>
+	<header>
+		<div class="top-header">
+			<h1 class="name">Nina Carducci</h1>
+			<div class="nav">   
+				<ul>
+					<li><a href="#about">À propos</a></li>
+					<li><a href="#gallery">Galerie</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Lien Instagram Nina Carducci"></a></li>
+				</ul>
+			</div>
+		</div>
+</header>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -84,6 +86,7 @@
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </div>
+
 <div id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
@@ -147,11 +150,12 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
+<footer>
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
@@ -170,7 +174,19 @@
 		<div class="picture right">
 			<img src="./assets/images/cameraretoucheechelle.webp" alt="film camera">
 		</div>
+		<div itemscope itemtype=”http://schema.org/Photographe”>
+			<span itemprop=”name”>Photographe Nina Carducci</span>
+			
+			<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
+			<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+			<span itemprop=”addressLocality”>Bordeaux</span>,
+			<span itemprop=”addressRegion”> Bordeaux</span>
+			<span itemprop=”postalCode”>33200</span>
+			<div itemprop="phoneNumber">05 56 67 78 89</div>
+			<span itemprop="openingHours">Du lundi au vendredi de 10h à 19h</span>
+			</div>
 	</div>
 </div>
+</footer>
 </body>
 </html>
