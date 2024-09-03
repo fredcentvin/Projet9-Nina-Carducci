@@ -268,7 +268,7 @@ input[type="submit"] {
 
 footer .picture.right::before {
 	bottom: 120px;
-	right:250px;
+	right:350px;
 	z-index: -1;
 }
 
