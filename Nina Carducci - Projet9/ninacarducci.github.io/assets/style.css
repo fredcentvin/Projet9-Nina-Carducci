@@ -258,6 +258,20 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.pictureFooter {
+	width:150px;
+	height: 150px;
+	margin-top: 33px;
+	position: relative;
+	z-index: 2;
+}
+
+footer .picture.right::before {
+	bottom: 120px;
+	right:250px;
+	z-index: -1;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
