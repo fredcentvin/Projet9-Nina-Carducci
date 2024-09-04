@@ -272,6 +272,10 @@ footer .picture.right::before {
 	z-index: -1;
 }
 
+#header .carousel-indicators button:active {
+	background-color: #dc3545!important;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
