@@ -20,6 +20,7 @@ body {
 }
 
 .top-header .name {
+	display: flex;
 	font-size: 26px;
 }
 
